@@ -1,4 +1,4 @@
-=== Summer ===
+=== Moana ===
 
 Contributors: torres126
 Tags: blog, one-column, two-columns, right-sidebar, custom-background, custom-colors, featured-images, custom-header, custom-logo, custom-menu, sticky-post, threaded-comments, translation-ready, block-styles
