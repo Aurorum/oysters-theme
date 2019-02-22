@@ -720,7 +720,7 @@ a:hover {
 
  .custom-header {
      display: none;
-     z-index: -1;
+     z-index: 2;
 }
 
  .home .custom-header {
@@ -815,15 +815,16 @@ a:hover {
 }
 
  .site-description {
-	 display: none;
-	 background-color: #fff;
+     display: none;
+     background-color: #fff;
      font-size: 22px;
      right: 0;
-	 left: 0;
-	 text-align: center;
+     left: 0;
+     text-align: center;
      transform: translateY(-100%);
-	 position: absolute;
+     position: absolute;
      margin: 0;
+     z-index: 3;
 }
 
  .custom-logo {
@@ -1139,6 +1140,7 @@ body .contact-form select {
 }
 
 #content {
+   background: #fff;
    margin: auto;
    width: 80%;
 }
