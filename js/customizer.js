@@ -31,7 +31,7 @@
 			} else {
 				$( '.site-title, .site-description' ).css( {
 					'clip': 'auto',
-					'position': 'relative'
+					'position': 'absolute'
 				} );
 				$( '.site-title a, .site-description' ).css( {
 					'color': to
