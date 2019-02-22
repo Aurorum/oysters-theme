@@ -1,0 +1,177 @@
+/* GUTENBERG */
+
+/* Paragraph */
+
+p.has-drop-cap:not(:focus)::first-letter {
+
+	font-size: 64px;}
+
+/* Image */
+
+[class^="wp-block-"] figcaption {
+
+	clear: both;
+
+	font-size: 15px;
+
+	font-style: italic;
+
+	margin: 0.6em 0;
+
+	text-align: center;
+
+}
+
+/* Quote */
+
+blockquote cite {
+
+	font-style: normal;
+
+}
+
+.wp-block-quote,
+
+.wp-block-quote.is-large p,
+
+.wp-block-quote.is-style-large p {
+
+	font-style: normal;
+
+}
+
+.wp-block-quote[style*="text-align:right"] {
+
+	padding-left: 0;
+
+	padding-right: 2.4em;
+
+}
+
+.wp-block-quote[style*="text-align:right"]::before {
+
+	left: auto;
+
+	right: -10px;
+
+}
+
+.rtl .wp-block-quote[style*="text-align:left"] {
+
+	padding-left: 2.4em;
+
+	padding-right: 0;
+
+}
+
+.rtl .wp-block-quote[style*="text-align:left"]::before {
+
+	left: -10px;
+
+	right: auto;
+
+}
+
+.wp-block-quote.is-large cite,
+
+.wp-block-quote.is-large footer,
+
+.wp-block-quote.is-style-large cite,
+
+.wp-block-quote.is-style-large footer {
+
+	text-align: left;
+
+}
+
+.wp-block-quote.is-large,
+
+.wp-block-quote.is-style-large {
+
+	padding-left: 1.6em;
+
+}
+
+.wp-block-quote.is-large,
+
+.wp-block-quote.is-style-large,
+
+.wp-block-quote.is-large p,
+
+.wp-block-quote.is-style-large p {
+
+	font-size: 32px;
+
+}
+
+.wp-block-quote.is-large p,
+
+.wp-block-quote.is-style-large p {
+
+	margin-bottom: .8em;
+
+}
+
+.rtl .wp-block-quote {
+
+	border: 0;
+
+}
+
+.rtl .wp-block-quote.is-large cite,
+
+.rtl .wp-block-quote.is-large footer,
+
+.rtl .wp-block-quote.is-style-large cite,
+
+.rtl .wp-block-quote.is-style-large footer {
+
+	text-align: right;
+
+}
+
+.rtl .wp-block-quote.is-large,
+
+.rtl .wp-block-quote.is-style-large {
+
+	padding-left: 0;
+
+	padding-right: 1.6em;
+
+}
+
+/* Pullquote */
+
+.wp-block-pullquote {
+
+	border-top: 4px solid; /* The colours come from the header */
+
+	border-bottom: 4px solid;
+
+	border-left: 0;
+
+	padding: 3em 0;
+
+	margin-right: 0;
+
+	margin-left: 0;
+
+}
+
+.wp-block-pullquote blockquote {
+
+	color: #40464d;
+
+	border-left: 0;
+
+	text-align: center;
+
+}
+
+.wp-block-pullquote cite {
+
+	margin: 0;
+
+	font-style: italic;
+
+}
