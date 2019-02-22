@@ -4,13 +4,13 @@ Theme URI: https://github.com/torres126/moana-theme
 Author: Torres 126
 Author URI: https://github.com/torres126/
 Description: Moana is a fresh, clean theme designed to make your blog vibrant and lively, with minimal but effective styling combined with georgeous colours, allowing your content to truly be breathtaking.
-Version: 1.0.1
+Version: 1.0.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: moana
 Tags: blog, one-column, two-columns, right-sidebar, custom-background, custom-colors, custom-header, custom-logo, custom-menu, sticky-post, featured-images, threaded-comments, translation-ready, block-styles
 
-This theme, like WordPress, is licensed under the GPL.
+This theme, like WordPress, is licensed under the GPL, along with the photos in the screenshot.
 Use it to make something cool, have fun, and share what you've learned with others.
 
 Moana is based on Underscores https://underscores.me/, (C) 2012-2019 Automattic, Inc.
@@ -720,7 +720,7 @@ a:hover {
 
  .custom-header {
      display: none;
-     z-index: -1;
+     z-index: 2;
 }
 
  .home .custom-header {
@@ -791,19 +791,20 @@ a:hover {
 
  .site-title {
      display: none;
-	 position: absolute;
+     position: absolute;
      right: 50%;
      transform: translateX(50%);
      padding: 80px 90px;
      border: 2px solid white;
      border-bottom: 0;
      margin-top: 7%;
-	 max-width: 100%;
+     max-width: 100%;
      background: rgba(255,255,255,0.7);
      font-weight: 500;
      font-family: 'Titillium Web', sans-serif;
      font-size: 36px;
-	 text-align: center;
+     text-align: center;
+     z-index: 3;
 }
 
  .site-title a {
@@ -815,15 +816,16 @@ a:hover {
 }
 
  .site-description {
-	 display: none;
-	 background-color: #fff;
+     display: none;
+     background-color: #fff;
      font-size: 22px;
      right: 0;
-	 left: 0;
-	 text-align: center;
+     left: 0;
+     text-align: center;
      transform: translateY(-100%);
-	 position: absolute;
+     position: absolute;
      margin: 0;
+     z-index: 3;
 }
 
  .custom-logo {
@@ -1139,6 +1141,7 @@ body .contact-form select {
 }
 
 #content {
+   background: #fff;
    margin: auto;
    width: 80%;
 }
@@ -1161,7 +1164,7 @@ body .contact-form select {
 .home #main,
 .no-sidebar #primary {
 	width: 100% !important;
-	/* This override fixes several bugs, and probably more that can't be predicted #worthit */
+	/* This override fixes several bugs, and probably more that can't be predicted */
 	max-width: none;
 }
 
