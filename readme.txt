@@ -20,7 +20,7 @@ Moana is a fresh, clean theme designed to make your blog vibrant and lively, wit
 
 == Frequently Asked Questions ==
 
-== How do I set up my theme? ==
+= How do I set up my theme? =
 
 Moana's demo can be replicated in a matter of minutes, all through the Customizer, with just five simple steps:
 
@@ -45,7 +45,7 @@ Moana welcomes and encourages all feedback and any bug reports for future update
 = 1.0 - Feb 21 2019 =
 * Initial release
 
-== Credits ==
+== Resources ==
 
 * Based on Underscores https://underscores.me/, (C) 2012-2019 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
 * normalize.css https://necolas.github.io/normalize.css/, (C) 2012-2019 Nicolas Gallagher and Jonathan Neal, [MIT](https://opensource.org/licenses/MIT)
