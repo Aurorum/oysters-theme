@@ -42,6 +42,20 @@ Moana welcomes and encourages all feedback and any bug reports for future update
 
 == Changelog ==
 
+= 1.3 - Feb 23 2019 =
+* Update readme to comply with WordPress standards
+* Import Google Fonts in compliance with WordPress standards
+* Improve letter spacing between titles for a more natural feel
+
+= 1.2 - Feb 22 2019 =
+* Switch and compress theme screenshot 
+* Fix a bug where hiding the site title in the Customizer twice would break the layout
+* Extend the background on the home page to stop at the end of the content, not the sidebar
+* Janitorial works
+
+= 1.1 - Feb 21 2019 =
+* Fix major typos
+
 = 1.0 - Feb 21 2019 =
 * Initial release
 
