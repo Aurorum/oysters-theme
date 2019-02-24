@@ -4,6 +4,7 @@ Contributors: torres126
 Tags: blog, one-column, two-columns, right-sidebar, custom-background, custom-colors, featured-images, custom-header, custom-logo, custom-menu, sticky-post, threaded-comments, translation-ready, block-styles
 Requires at least: 4.5
 Tested up to: 5.1
+Requires PHP: 5.2
 Stable tag: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -45,7 +46,8 @@ Moana welcomes and encourages all feedback and any bug reports for future update
 = 1.3 - Feb 23 2019 =
 * Update readme to comply with WordPress standards
 * Import Google Fonts in compliance with WordPress standards
-* Improve letter spacing between titles for a more natural feel
+* Improve the navbar's letter spacing for a more natural feel
+* Fix a bug that could cause confusion with custom backgrounds in the Customizer
 
 = 1.2 - Feb 22 2019 =
 * Switch and compress theme screenshot 
