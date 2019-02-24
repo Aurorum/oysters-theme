@@ -2,9 +2,8 @@
 Theme Name: Moana
 Theme URI: https://github.com/torres126/moana-theme
 Author: Torres 126
-Author URI: https://github.com/torres126/
 Description: Moana is a fresh, clean theme designed to make your blog vibrant and lively, with minimal but effective styling combined with georgeous colours, allowing your content to truly be breathtaking.
-Version: 1.0.2
+Version: 1.0.3
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: moana
@@ -705,6 +704,7 @@ a:hover {
      font-family: 'Titillium Web', sans-serif;
      font-weight: 800;
      font-size: 22px;
+     letter-spacing: 0.2px;
      margin-bottom: 5px;
      padding: 12px;
 }

@@ -4,6 +4,7 @@ Contributors: torres126
 Tags: blog, one-column, two-columns, right-sidebar, custom-background, custom-colors, featured-images, custom-header, custom-logo, custom-menu, sticky-post, threaded-comments, translation-ready, block-styles
 Requires at least: 4.5
 Tested up to: 5.1
+Requires PHP: 5.2
 Stable tag: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -20,9 +21,9 @@ Moana is a fresh, clean theme designed to make your blog vibrant and lively, wit
 
 == Frequently Asked Questions ==
 
-== How do I set up my theme? ==
+= How do I set up my theme? =
 
-Moana's demo can be replicated in a matter of minutes, all through the Customizer, with just five simple steps:
+When you first activate your theme, your site may look surprisingly different. Not to worry though! Moana's demo can be replicated in a matter of minutes, all through the Customizer, with just five simple steps:
 
 1. Set your Header Image
 2. Visit the "Colors" tab and pick the header and primary colour for your site
@@ -34,7 +35,7 @@ From there, all you need to do is write your first post!
 
 = Does this theme support any plugins? =
 
-Moana includes support for Jetpack's Infinite Scroll, Social Menus and other benefits it offers, such as Responsive Videos.
+Moana includes support for Jetpack, including its Infinite Scroll, Social Menus and other benefits it offers, such as Responsive Videos.
 
 = There's something which I don't like! =
 
@@ -42,10 +43,25 @@ Moana welcomes and encourages all feedback and any bug reports for future update
 
 == Changelog ==
 
+= 1.3 - Feb 23 2019 =
+* Update readme to comply with WordPress standards
+* Import Google Fonts in compliance with WordPress standards
+* Improve the navbar's letter spacing for a more natural feel
+* Fix a bug that could cause confusion with custom backgrounds in the Customizer
+
+= 1.2 - Feb 22 2019 =
+* Switch and compress theme screenshot 
+* Fix a bug where hiding the site title in the Customizer twice would break the layout
+* Extend the background on the home page to stop at the end of the content, not the sidebar
+* Janitorial works
+
+= 1.1 - Feb 21 2019 =
+* Fix major typos
+
 = 1.0 - Feb 21 2019 =
 * Initial release
 
-== Credits ==
+== Resources ==
 
 * Based on Underscores https://underscores.me/, (C) 2012-2019 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
 * normalize.css https://necolas.github.io/normalize.css/, (C) 2012-2019 Nicolas Gallagher and Jonathan Neal, [MIT](https://opensource.org/licenses/MIT)
