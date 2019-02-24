@@ -122,6 +122,8 @@ add_action( 'widgets_init', 'moana_widgets_init' );
  */
 function moana_scripts() {
 	wp_enqueue_style( 'moana-style', get_stylesheet_uri() );
+	
+	wp_enqueue_style( 'moana-fonts', '//fonts.googleapis.com/css?family=Roboto|Titillium+Web');
 
 	wp_enqueue_script( 'moana-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
