@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package Moana
+ * @package Oyster
  */
 
 ?>
@@ -15,16 +15,16 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'moana' ) ); ?>">
+			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'oyster' ) ); ?>">
 				<?php
 				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'moana' ), 'WordPress' );
+				printf( esc_html__( 'Proudly powered by %s', 'oyster' ), 'WordPress' );
 				?>
 			</a>
 			<span class="sep"> | </span>
 				<?php
 				/* translators: 1: Theme name, 2: Theme author (removed currently). */
-				printf( esc_html__( 'Theme: %1$s', 'moana' ), 'moana', '<a href="https://github.com/torres126">Torres 126</a>' );
+				printf( esc_html__( 'Theme: %1$s', 'oyster' ), 'oyster', '<a href="https://github.com/torres126">Torres 126</a>' );
 				?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
