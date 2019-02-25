@@ -28,7 +28,7 @@ get_header();
 					?>
 
 					<div class="widget widget_categories">
-						<h2 class="widget-title"><?php esc_html_e( 'Most Used Categories', 'moana' ); ?></h2>
+						<h2 class="widget-title"><?php esc_html_e( 'Most Used Categories', 'oyster' ); ?></h2>
 						<ul>
 							<?php
 							wp_list_categories( array(
@@ -44,7 +44,7 @@ get_header();
 
 					<?php
 					/* translators: %1$s: smiley */
-					$moana_archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', 'moana' ), convert_smilies( ':)' ) ) . '</p>';
+					$moana_archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', 'oyster' ), convert_smilies( ':)' ) ) . '</p>';
 					the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$moana_archive_content" );
 
 					the_widget( 'WP_Widget_Tag_Cloud' );
