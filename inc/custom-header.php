@@ -2,34 +2,34 @@
 /**
  * Custom Header feature
  *
- * @package Moana
+ * @package Oyster
  */
 
 /**
  * Set up the WordPress core custom header feature.
  *
- * @uses moana_header_style()
+ * @uses oyster_header_style()
  */
 
-function moana_custom_header_setup() {
-	add_theme_support( 'custom-header', apply_filters( 'moana_custom_header_args', array(
+function oyster_custom_header_setup() {
+	add_theme_support( 'custom-header', apply_filters( 'oyster_custom_header_args', array(
 		'default-image'          => '',
 		'default-text-color'     => '0E8484',
 		'width'                  => 1000,
 		'height'                 => 500,
 		'flex-height'            => true,
-		'wp-head-callback'       => 'moana_header_style',
+		'wp-head-callback'       => 'oyster_header_style',
 	) ) );
 }
-add_action( 'after_setup_theme', 'moana_custom_header_setup' );
+add_action( 'after_setup_theme', 'oyster_custom_header_setup' );
 
-if ( ! function_exists( 'moana_header_style' ) ) :
+if ( ! function_exists( 'oyster_header_style' ) ) :
 	/**
 	 * Styles the header image and text displayed on the blog.
 	 *
-	 * @see moana_custom_header_setup().
+	 * @see oyster_custom_header_setup().
 	 */
-	function moana_header_style() {
+	function oyster_header_style() {
 		$header_text_color = get_header_textcolor();
 
 		/*
@@ -53,7 +53,7 @@ if ( ! function_exists( 'moana_header_style' ) ) :
 			}
 		<?php
 		// If the user has set a custom colour for the text use that. 
-		// But don't just stop there; Moana should take that colour and makes it a theme throughout the site
+		// But don't just stop there; Oyster should take that colour and makes it a theme throughout the site
 		// We've already grabbed control of the label to inform the user of this
 		else :
 			?>
@@ -82,7 +82,7 @@ if ( ! function_exists( 'moana_header_style' ) ) :
 			
 			.wp-block-pullquote {
 				border-top-color: #<?php echo esc_attr( $header_text_color ); ?>;
-		        border-bottom-color: #<?php echo esc_attr( $header_text_color ); ?>;
+		                border-bottom-color: #<?php echo esc_attr( $header_text_color ); ?>;
 			}
 			
 			blockquote,
