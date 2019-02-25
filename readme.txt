@@ -43,22 +43,7 @@ Oyster welcomes and encourages all feedback and any bug reports for future updat
 
 == Changelog ==
 
-= 1.3 - Feb 23 2019 =
-* Update readme to comply with WordPress standards
-* Import Google Fonts in compliance with WordPress standards
-* Improve the navbar's letter spacing for a more natural feel
-* Fix a bug that could cause confusion with custom backgrounds in the Customizer
-
-= 1.2 - Feb 22 2019 =
-* Switch and compress theme screenshot 
-* Fix a bug where hiding the site title in the Customizer twice would break the layout
-* Extend the background on the home page to stop at the end of the content, not the sidebar
-* Janitorial works
-
-= 1.1 - Feb 21 2019 =
-* Fix major typos
-
-= 1.0 - Feb 21 2019 =
+= 1.0 - Feb 25 2019 =
 * Initial release
 
 == Resources ==
