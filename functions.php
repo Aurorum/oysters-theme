@@ -97,7 +97,7 @@ function oyster_content_width() {
 	// phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound
 	$GLOBALS['content_width'] = apply_filters( 'oyster_content_width', 640 );
 }
-add_action( 'after_setup_theme', 'moana_content_width', 0 );
+add_action( 'after_setup_theme', 'oyster_content_width', 0 );
 
 /**
  * Register widget area.
