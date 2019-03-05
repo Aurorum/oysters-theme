@@ -4,7 +4,7 @@
  *
  * @link https://jetpack.com/
  *
- * @package Oyster
+ * @package Oysters
  */
 
 /**
@@ -14,7 +14,7 @@
  * See: https://jetpack.com/support/responsive-videos/
  * See: https://jetpack.com/support/content-options/
  */
-function oyster_jetpack_setup() {
+function oysters_jetpack_setup() {
 	// Add theme support for Infinite Scroll.
 	add_theme_support( 'infinite-scroll', array(
 		'container' => 'main',
@@ -28,7 +28,7 @@ function oyster_jetpack_setup() {
 	// Add theme support for Content Options.
 	add_theme_support( 'jetpack-content-options', array(
 		'post-details'    => array(
-			'stylesheet' => 'oyster-style',
+			'stylesheet' => 'oysters-style',
 			'date'       => '.posted-on',
 			'categories' => '.cat-links',
 			'tags'       => '.tags-links',
@@ -42,7 +42,7 @@ function oyster_jetpack_setup() {
 		),
 	) );
 }
-add_action( 'after_setup_theme', 'oyster_jetpack_setup' );
+add_action( 'after_setup_theme', 'oysters_jetpack_setup' );
 
 /**
  * Custom render function for Infinite Scroll.
