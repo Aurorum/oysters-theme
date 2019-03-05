@@ -1,7 +1,7 @@
 === Oysters ===
 
 Contributors: torres126
-Tags: blog, one-column, two-columns, right-sidebar, custom-background, custom-colors, featured-images, custom-header, custom-logo, custom-menu, sticky-post, threaded-comments, translation-ready, block-styles
+Tags: blog, one-column, two-columns, right-sidebar, custom-background, custom-colors, featured-images, custom-header, custom-logo, custom-menu, sticky-post, threaded-comments, translation-ready
 Requires at least: 4.5
 Tested up to: 5.1
 Requires PHP: 5.2
@@ -11,7 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Oysters is a fresh, clean theme designed to make your blog vibrant and lively, with minimal but effective styling combined with georgeous colours, allowing your content to truly glitter.
+Oysters is a fresh, clean theme designed to make your blog vibrant and lively, with minimal but effective styling combined with georgeous colours, allowing your content to truly sparkle.
 
 == Installation ==
 
@@ -43,6 +43,10 @@ Oysters welcomes and encourages all feedback and any bug reports for future upda
 
 == Changelog ==
 
+= 1.0.1 - Mar 05 2019 =
+* Fix an issue with the theme tag 
+* Minor issues resolved
+
 = 1.0 - Feb 25 2019 =
 * Initial release
 
@@ -50,4 +54,4 @@ Oysters welcomes and encourages all feedback and any bug reports for future upda
 
 * Based on Underscores https://underscores.me/, (C) 2012-2019 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
 * normalize.css https://necolas.github.io/normalize.css/, (C) 2012-2019 Nicolas Gallagher and Jonathan Neal, [MIT](https://opensource.org/licenses/MIT)
-* All photos in screenshot taken by Oysters developers and licensed with this theme
+* All photos in screenshot taken by Oysters' developers and licensed with this theme

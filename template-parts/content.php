@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package Oyster
+ * @package Oysters
  */
 
 ?>
@@ -22,8 +22,8 @@
 			?>
 			<div class="entry-meta">
 				<?php
-				oyster_posted_on();
-				oyster_posted_by();
+				oysters_posted_on();
+				oysters_posted_by();
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
@@ -36,7 +36,7 @@
 		the_content( sprintf(
 			wp_kses(
 				/* translators: %s: Name of current post. Only visible to screen readers */
-				__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'oyster' ),
+				__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'oysters' ),
 				array(
 					'span' => array(
 						'class' => array(),
@@ -47,13 +47,13 @@
 		) );
 
 		wp_link_pages( array(
-			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'oyster' ),
+			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'oysters' ),
 			'after'  => '</div>',
 		) );
 		?>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php oyster_entry_footer(); ?>
+		<?php oysters_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->

@@ -1,10 +1,10 @@
 <?php
 /**
- * The Header for Oyster
+ * The Header for Oysters
  *
  * Displays all of the <head> section and everything up till <div id="content">
  *
- * @package Oyster
+ * @package Oysters
  */
 ?><!DOCTYPE html>
 
@@ -35,7 +35,7 @@ body_class();
 
 
     <a class="skip-link screen-reader-text" href="#content"><?php
-esc_html_e('Skip to content', 'oyster');
+esc_html_e('Skip to content', 'oysters');
 ?></a>    <header id="masthead" class="site-header" role="banner"> <?php
 the_custom_logo();
 if (is_front_page() && is_home()):
