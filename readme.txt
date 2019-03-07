@@ -43,6 +43,12 @@ Oysters welcomes and encourages all feedback and any bug reports for future upda
 
 == Changelog ==
 
+= 1.0.2 - Mar 07 2019 =
+* Prevents longer layouts from appearing obscurely
+* Fixes an issue with caption displays
+* Informs of the colour customisability in the Customizer 
+* Allows some more elements to benefit from this colour customisability
+
 = 1.0.1 - Mar 05 2019 =
 * Fix an issue with the theme tag 
 * Minor issues resolved

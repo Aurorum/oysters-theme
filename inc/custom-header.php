@@ -67,6 +67,8 @@ if ( ! function_exists( 'oysters_header_style' ) ) :
 			
 			.jetpack-social-navigation ul li, 
 			button, 
+			mark,
+			ins,
 			input[type="button"], 
 			input[type="reset"], 
 			input[type="submit"],
