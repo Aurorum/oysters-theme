@@ -848,6 +848,10 @@ a:hover {
      display: block;
 }
 
+.home .menu {
+	padding-top: 0;
+}
+
  .custom-logo-link {
      background-color: #FFF;
      display: inline-block;
@@ -1540,6 +1544,10 @@ object {
 		max-width: none;
 	}
 	
+	.menu { 
+		padding-top 0;
+	}		
+			
 	.archive #primary, 
 	.page-template-default #primary, 
 	.single-post #primary {
