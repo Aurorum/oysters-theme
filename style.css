@@ -1545,7 +1545,7 @@ object {
 	}
 	
 	.menu { 
-		padding-top 0;
+		padding-top: 0;
 	}		
 			
 	.archive #primary, 
