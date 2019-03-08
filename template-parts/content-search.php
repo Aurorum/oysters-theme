@@ -16,8 +16,8 @@
 		<?php if ( 'post' === get_post_type() ) : ?>
 		<div class="entry-meta">
 			<?php
-			oyster_posted_on();
-			oyster_posted_by();
+			oysters_posted_on();
+			oysters_posted_by();
 			?>
 		</div><!-- .entry-meta -->
 		<?php endif; ?>
