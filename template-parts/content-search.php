@@ -23,13 +23,13 @@
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<?php oyster_post_thumbnail(); ?>
+	<?php oystera_post_thumbnail(); ?>
 
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>
 	</div><!-- .entry-summary -->
 
 	<footer class="entry-footer">
-		<?php oyster_entry_footer(); ?>
+		<?php oysters_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->
