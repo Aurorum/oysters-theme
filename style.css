@@ -1544,6 +1544,11 @@ object {
 		max-width: none;
 	}
 	
+	.home #masthead {
+		margin-bottom: 50px;
+		max-height: 150px;
+	}
+	
 	.menu { 
 		padding-top: 0;
 	}		
@@ -1573,7 +1578,9 @@ object {
 	}
 	
 	.wp-custom-logo .jetpack-social-navigation{
-		margin: -60px 0 6px 0;
+		background-color: #fff;
+		margin: -60px 0 10px 0;
+		max-height: 55px;
 	}
 	
 	.jetpack-social-navigation ul li {
