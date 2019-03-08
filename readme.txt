@@ -43,6 +43,11 @@ Oysters welcomes and encourages all feedback and any bug reports for future upda
 
 == Changelog ==
 
+= 1.0.3 - Mar 09 2019 =
+* Fixes a fatal error with search results 
+* Adds more responsiveness to search results
+* Ensures lengthy nav menus are always centred on mobile
+
 = 1.0.2 - Mar 07 2019 =
 * Prevents longer layouts from appearing obscurely
 * Fixes an issue with caption displays
