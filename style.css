@@ -1480,7 +1480,7 @@ object {
 
 .search #primary {
 	display: inline-block;
-	width: 75%;
+	max-width: 75%;
 }
 
 .search #main {
@@ -1492,9 +1492,9 @@ object {
 	display: table;
 }
 
-.search .main-navigation {
-	float: right;
-	line-height: 1;
+.search .entry-title { 
+	border-top: 1px solid black;
+	padding-top: 20px;
 }
 
 .no-results.not-found {
@@ -1528,7 +1528,7 @@ object {
 ## Media Queries
 --------------------------------------------------------------*/
 
-@media screen and (max-width: 865px) {
+@media screen and (max-width: 1024px) {
 	
 	#main {
 		max-width: none;
@@ -1543,6 +1543,7 @@ object {
 	}
 	
 	.home #primary,
+	.search #primary,
     	#primary {
 		max-width: none;
 	}
@@ -1602,7 +1603,8 @@ object {
 	.single-post .main-navigation, 
 	.archive .main-navigation, 
 	.page .main-navigation,
-	.error404 .main-navigation {
+	.error404 .main-navigation,
+	.search .main-navigation {
 		margin-top: 60px;
 		margin-right: 0;
 		justify-content: center;
