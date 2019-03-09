@@ -47,6 +47,7 @@ Oysters welcomes and encourages all feedback and any bug reports for future upda
 * Fixes a fatal error with search results 
 * Adds more responsiveness to search results
 * Ensures lengthy nav menus are always centred on mobile
+* Avoids an edge case where a large empty header could be provoked
 
 = 1.0.2 - Mar 07 2019 =
 * Prevents longer layouts from appearing obscurely
