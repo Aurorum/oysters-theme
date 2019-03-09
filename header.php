@@ -117,9 +117,9 @@ if (get_header_image()):
                 <img class="custom-header" src="<?php
     header_image();
 ?>" width="<?php
-    echo get_custom_header()->width;
+    get_custom_header()->width;
 ?>" height="<?php
-    echo get_custom_header()->height;
+    get_custom_header()->height;
 ?>" alt="">
 
             </a>
