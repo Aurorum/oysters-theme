@@ -43,6 +43,12 @@ Oysters welcomes and encourages all feedback and any bug reports for future upda
 
 == Changelog ==
 
+= 1.0.3 - Mar 09 2019 =
+* Fixes a fatal error with search results 
+* Adds more responsiveness to search results
+* Ensures lengthy nav menus are always centred on mobile
+* Avoids an edge case where a large empty header could be provoked
+
 = 1.0.2 - Mar 07 2019 =
 * Prevents longer layouts from appearing obscurely
 * Fixes an issue with caption displays
@@ -60,4 +66,5 @@ Oysters welcomes and encourages all feedback and any bug reports for future upda
 
 * Based on Underscores https://underscores.me/, (C) 2012-2019 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
 * normalize.css https://necolas.github.io/normalize.css/, (C) 2012-2019 Nicolas Gallagher and Jonathan Neal, [MIT](https://opensource.org/licenses/MIT)
+* Roboto and Titillium Web fonts https://github.com/google/fonts licensed under [SIL Open Font License](https://scripts.sil.org/OFL)
 * All photos in screenshot taken by Oysters' developers and licensed with this theme
