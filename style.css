@@ -804,7 +804,7 @@ a:hover {
      padding: 80px 90px;
      border: 2px solid white;
      border-bottom: 0;
-     margin-top: 7%;
+     margin-top: 125px;
      max-width: 100%;
      background: rgba(255,255,255,0.7);
      font-weight: 500;
@@ -1548,6 +1548,11 @@ object {
 		max-width: none;
 	}
 	
+	.home #masthead {
+		margin-bottom: 50px;
+		max-height: 150px;
+	}
+	
 	.menu { 
 		padding-top: 0;
 	}		
@@ -1562,11 +1567,7 @@ object {
 		position: relative;
 		width: auto;
 	}
-	
-	.site-title {
-		margin-top: 20%;
-	}
-	
+			
 	.site-branding .site-description {
 		display: none;
 	}
@@ -1577,7 +1578,9 @@ object {
 	}
 	
 	.wp-custom-logo .jetpack-social-navigation{
-		margin: -60px 0 6px 0;
+		background-color: #fff;
+		margin: -60px 0 10px 0;
+		max-height: 55px;
 	}
 	
 	.jetpack-social-navigation ul li {
