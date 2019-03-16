@@ -22,14 +22,14 @@ if ( ! function_exists( 'oysters_setup' ) ) :
 		 */
 		register_default_headers( array(
     'coast' => array(
-        'url'           => 'resources/coast.png',
-        'thumbnail_url' => 'resources/coast.png',
+        'url'           => '%s/resources/coast.png',
+        'thumbnail_url' => '%s/resources/coast.png',
         'description'   => __( 'Coast', 'oysters' )
     ),
 
     'waterfall' => array(
-        'url'           => 'resources/waterfall.png',
-        'thumbnail_url' => 'resources/waterfall.png',
+        'url'           => '%s/resources/waterfall.png',
+        'thumbnail_url' => '%s/resources/waterfall.png',
         'description'   => __( 'Waterfall', 'oysters' )
     ),  
 ) );
