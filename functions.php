@@ -16,6 +16,23 @@ if ( ! function_exists( 'oysters_setup' ) ) :
 	 * as indicating support for post thumbnails.
 	 */
 	function oysters_setup() {
+		
+		/*
+		 * Start by registering header suggestions		
+		 */
+		register_default_headers( array(
+    'coast' => array(
+        'url'           => 'resources/coast.png',
+        'thumbnail_url' => 'resources/coast.png',
+        'description'   => __( 'Coast', 'oysters' )
+    ),
+
+    'waterfall' => array(
+        'url'           => 'resources/waterfall.png',
+        'thumbnail_url' => 'resources/waterfall.png',
+        'description'   => __( 'Waterfall', 'oysters' )
+    ),  
+) );
 		/*
 		 * Make theme available for translation.
 		 * Translations can be filed in the /languages/ directory.
@@ -59,7 +76,7 @@ if ( ! function_exists( 'oysters_setup' ) ) :
 
 		// Set up the WordPress core custom background feature.
 		add_theme_support( 'custom-background', apply_filters( 'oysters_custom_background_args', array(
-			'default-color' => 'ffffff',
+			'default-color' => '34b8bc',
 			'default-image' => '',
 		) ) );
 

@@ -118,7 +118,7 @@ if ( ! function_exists( 'oysters_post_thumbnail' ) ) :
 	 * Wraps the post thumbnail in an anchor element on index views, or a div
 	 * element when on single views.
 	 */
-	function oyster_post_thumbnail() {
+	function oysters_post_thumbnail() {
 		if ( post_password_required() || is_attachment() || ! has_post_thumbnail() ) {
 			return;
 		}

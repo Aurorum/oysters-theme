@@ -25,9 +25,9 @@ Oysters is a fresh, clean theme designed to make your blog vibrant and lively, w
 
 When you first activate your theme, your site may look surprisingly different. Not to worry though! Oysters' demo can be replicated in a matter of minutes, all through the Customizer, with just five simple steps:
 
-1. Set your Header Image
-2. Visit the "Colors" tab and pick the header and primary colour for your site
-3. From "Site Identity", upload your custom logo
+1. Set your Header Image to your own gorgeous pick
+2. Visit the "Colors" tab and select the header and primary colour for your site
+3. From "Site Identity", upload your fancy custom logo
 4. If you have the Jetpack plugin installed, select "Menus" and add your Social Menu, with links to all your social networks
 5. Lastly, head to the Widgets section and add your favourite widgets to trigger your sidebar 
 
@@ -42,6 +42,9 @@ Oysters includes support for Jetpack, including its Infinite Scroll, Social Menu
 Oysters welcomes and encourages all feedback and any bug reports for future updates! In the meantime, custom CSS can be provided to ensure your blog looks just how you'd like it.
 
 == Changelog ==
+
+= 1.0.4 - Mar 16 2019 =
+* Improves default styling for when Oysters is immediately activated
 
 = 1.0.3 - Mar 09 2019 =
 * Fixes a fatal error with search results 
