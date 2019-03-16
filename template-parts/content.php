@@ -29,7 +29,7 @@
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<?php oyster_post_thumbnail(); ?>
+	<?php oysters_post_thumbnail(); ?>
 
 	<div class="entry-content">
 		<?php
