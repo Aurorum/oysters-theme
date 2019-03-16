@@ -18,7 +18,7 @@ function oysters_jetpack_setup() {
 	// Add theme support for Infinite Scroll.
 	add_theme_support( 'infinite-scroll', array(
 		'container' => 'main',
-		'render'    => 'oyster_infinite_scroll_render',
+		'render'    => 'oysters_infinite_scroll_render',
 		'footer'    => 'page',
 	) );
 
@@ -47,7 +47,7 @@ add_action( 'after_setup_theme', 'oysters_jetpack_setup' );
 /**
  * Custom render function for Infinite Scroll.
  */
-function oyster_infinite_scroll_render() {
+function oysters_infinite_scroll_render() {
 	while ( have_posts() ) {
 		the_post();
 		if ( is_search() ) :
