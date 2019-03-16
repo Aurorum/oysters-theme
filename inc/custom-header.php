@@ -13,7 +13,7 @@
 
 function oysters_custom_header_setup() {
 	add_theme_support( 'custom-header', apply_filters( 'oysters_custom_header_args', array(
-		'default-image'          => 'get_template_directory_uri() . '/resources/boats.png',
+		'default-image'          => get_template_directory_uri() . 'resources/boats.png',
 		'default-text-color'     => '0E8484',
 		'width'                  => 1000,
 		'height'                 => 500,
