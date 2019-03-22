@@ -5,9 +5,9 @@ Tags: blog, one-column, two-columns, right-sidebar, custom-background, custom-co
 Requires at least: 4.5
 Tested up to: 5.1
 Requires PHP: 5.2
-Stable tag: 1.0.0
+Stable tag: 1.1.0
 License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
@@ -43,6 +43,9 @@ Oysters welcomes and encourages all feedback and any bug reports for future upda
 
 == Changelog ==
 
+= 1.1.0 - Mar 22 2019 =
+* Code quality improvement
+
 = 1.0.4 - Mar 16 2019 =
 * Improves default styling for when Oysters is immediately activated
 
@@ -67,7 +70,10 @@ Oysters welcomes and encourages all feedback and any bug reports for future upda
 
 == Resources ==
 
+Oysters WordPress Theme, Copyright 2019 torres126 
+Oysters is distributed under the terms of the GNU GPL
+
 * Based on Underscores https://underscores.me/, (C) 2012-2019 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
 * normalize.css https://necolas.github.io/normalize.css/, (C) 2012-2019 Nicolas Gallagher and Jonathan Neal, [MIT](https://opensource.org/licenses/MIT)
 * Roboto and Titillium Web fonts https://github.com/google/fonts licensed under [SIL Open Font License](https://scripts.sil.org/OFL)
-* All photos in screenshot taken by Oysters' developers and licensed with this theme
+* All photos contained in the theme screenshot or included within the theme have been taken by Oysters' developers and are licensed with this theme [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)

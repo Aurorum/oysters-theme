@@ -3,9 +3,9 @@ Theme Name: Oysters
 Theme URI: https://github.com/torres126/oysters-theme
 Author: Torres 126
 Description: Oysters is a fresh, clean theme designed to make your blog vibrant and lively, with minimal but effective styling combined with georgeous colours, allowing your content to truly sparkle.
-Version: 1.0.4
+Version: 1.1.0
 License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: oysters
 Tags: blog, one-column, two-columns, right-sidebar, custom-background, custom-colors, custom-header, custom-logo, custom-menu, sticky-post, featured-images, threaded-comments, translation-ready, block-styles
 
@@ -923,6 +923,7 @@ a:hover {
 }		
 
 .secondary-title a {
+	color: black;
 	position: absolute;
 	top: 15px;
 	margin-left: 20px; 
