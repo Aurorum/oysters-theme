@@ -68,9 +68,12 @@ Oysters welcomes and encourages all feedback and any bug reports for future upda
 = 1.0 - Feb 25 2019 =
 * Initial release
 
-== Resources ==
+== Licensing ==
+
+Oysters WordPress Theme, Copyright 2019 torres126 (company name)
+Distributed under the terms of the GNU GPL
 
 * Based on Underscores https://underscores.me/, (C) 2012-2019 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
 * normalize.css https://necolas.github.io/normalize.css/, (C) 2012-2019 Nicolas Gallagher and Jonathan Neal, [MIT](https://opensource.org/licenses/MIT)
 * Roboto and Titillium Web fonts https://github.com/google/fonts licensed under [SIL Open Font License](https://scripts.sil.org/OFL)
-* All photos contained in the theme screenshot or included within the theme have been taken by Oysters' developers and are licensed with this theme (under the GPLv2 or later) 
+* All photos contained in the theme screenshot or included within the theme have been taken by Oysters' developers and are licensed with this theme [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
