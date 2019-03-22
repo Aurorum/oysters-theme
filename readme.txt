@@ -68,10 +68,10 @@ Oysters welcomes and encourages all feedback and any bug reports for future upda
 = 1.0 - Feb 25 2019 =
 * Initial release
 
-== Licensing ==
+== Resources ==
 
-Oysters WordPress Theme, Copyright 2019 torres126 (company name)
-Distributed under the terms of the GNU GPL
+Oysters WordPress Theme, Copyright 2019 torres126 
+Oysters is distributed under the terms of the GNU GPL
 
 * Based on Underscores https://underscores.me/, (C) 2012-2019 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
 * normalize.css https://necolas.github.io/normalize.css/, (C) 2012-2019 Nicolas Gallagher and Jonathan Neal, [MIT](https://opensource.org/licenses/MIT)
