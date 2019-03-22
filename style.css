@@ -923,6 +923,7 @@ a:hover {
 }		
 
 .secondary-title a {
+	color: black;
 	position: absolute;
 	top: 15px;
 	margin-left: 20px; 
