@@ -1010,6 +1010,21 @@ a:hover {
 	text-align: center;
 }
 
+.alignfull,
+.alignwide {
+	max-width: none;
+}
+
+.alignfull { 
+	margin-right: -29px;
+	margin-left: -29px;
+}
+
+.alignwide {
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
 /*--------------------------------------------------------------
 # Clearings
 --------------------------------------------------------------*/
