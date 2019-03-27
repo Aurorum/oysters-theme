@@ -81,7 +81,10 @@ if ( ! function_exists( 'oysters_setup' ) ) :
 		) ) );
 
 		// Add theme support for selective refresh for widgets.
-		add_theme_support( 'customize-selective-refresh-widgets' );
+		add_theme_support( 'customize-selective-refresh-widgets' );		
+		
+		// Add support for full and wide width content.
+		add_theme_support( 'align-wide' );
 
 		// Add theme support for Jetpack social menus, an important feature
 		add_theme_support( 'jetpack-social-menu', 'svg' );
