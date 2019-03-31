@@ -1,7 +1,7 @@
 === Oysters ===
 
 Contributors: torres126
-Tags: blog, one-column, two-columns, right-sidebar, custom-background, custom-colors, featured-images, custom-header, custom-logo, custom-menu, sticky-post, threaded-comments, translation-ready
+Tags: blog, one-column, two-columns, right-sidebar, custom-background, custom-colors, featured-images, custom-header, custom-logo, custom-menu, sticky-post, threaded-comments, translation-ready, wide-blocks
 Requires at least: 4.5
 Tested up to: 5.1
 Requires PHP: 5.2
