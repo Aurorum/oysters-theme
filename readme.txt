@@ -43,6 +43,10 @@ Oysters welcomes and encourages all feedback and any bug reports for future upda
 
 == Changelog ==
 
+= 1.1.1 - Aug 30 2019 =
+* Take advantage of WP Language Pack
+* Ensure hovering over menu items with children highlights the whole item, not just the link
+
 = 1.1.0 - Mar 22 2019 =
 * Code quality improvement
 
